@@ -1,0 +1,18 @@
+{
+  "name": "gossip",
+  "version": "1.0.0",
+  "description": "This is a real-time chat application, that was I created using HTML,CSS, JS as front-end and nodejS, express are used for Back-end and Socket.io is used for establishing the bi-directional connection between server and client. In this web-application we can communicate with each other in a chatroom.",
+  "scripts": {
+    "server": "nodemon server",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.6.2"
+  },
+  "main": "server.js"
+}
